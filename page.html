@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filip Xia - Data Visualization Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .intro {
+            max-width: 800px;
+            margin: 0 auto 40px;
+            text-align: center;
+            color: #555;
+        }
+        .dashboard-container {
+            margin-bottom: 60px;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .dashboard-title {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+        .dashboard-description {
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .tableau-embed {
+            width: 100%;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            color: #777;
+        }
+        .contact {
+            margin-top: 20px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Filip Xia</h1>
+        <h2>Data Visualization Portfolio</h2>
+    </header>
+
+    <div class="intro">
+        <p>Welcome to my data visualization portfolio. Below you'll find a collection of interactive Tableau dashboards I've created to transform complex data into actionable insights for various business scenarios.</p>
+    </div>
+
+    <!-- Dashboard 1 - Great Fit Review -->
+    <div class="dashboard-container">
+        <h2 class="dashboard-title">Greatfit E-Commerce Reviews Analysis</h2>
+        <div class="dashboard-description">
+            <p>This dashboard was created for Greatfit, an online e-commerce store selling ladies clothing. The Customer Service manager needed visibility into customer reviews across various platforms. The dashboard provides comprehensive analysis of:</p>
+            <ul>
+                <li>Positive vs. negative review distribution</li>
+                <li>Review analysis by product division</li>
+                <li>Product recommendation rates</li>
+                <li>Mentions of product returns in reviews</li>
+            </ul>
+            <p>The interactive filters allow the team to investigate negative reviews in detail, helping Greatfit identify improvement opportunities and enhance customer satisfaction.</p>
+        </div>
+        <div class="tableau-embed">
+            <!-- Tableau Public embed code -->
+            <div class='tableauPlaceholder' id='viz1741321902888' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Greatfitreview_17410980780950&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Greatfitreview_17410980780950&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Gr&#47;Greatfitreview_17410980780950&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1741321902888');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height='2177px';
+                }                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+    </div>
+
+    <!-- Dashboard 2 - MegaMart Sales Dashboard -->
+    <div class="dashboard-container">
+        <h2 class="dashboard-title">MegaMart Sales Agent Performance Dashboard</h2>
+        <div class="dashboard-description">
+            <p>This dashboard was developed for MegaMart, a global retailer that operates through sales agents responsible for specific product categories. The Sales Manager requested a comprehensive tool to monitor agent performance with the following features:</p>
+            <ul>
+                <li>Monthly sales tracking for each agent</li>
+                <li>Scatter plot visualization showing quantity vs. sales for each product category</li>
+                <li>Top 10 SKUs by sales for selected month</li>
+                <li>Top 5 product categories by sales performance</li>
+                <li>Sales target tracking functionality</li>
+            </ul>
+            <p>The interactive filters allow management to select specific sales agents and time periods, enabling targeted performance analysis and strategic decision-making.</p>
+        </div>
+        <div class="tableau-embed">
+            <div class='tableauPlaceholder' id='viz1741322021823' style='position: relative'><noscript><a href='#'><img alt='MegaMart Sales Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MegaMartSalesAgentDashboard_17411350686590&#47;MegaMartSalesDashboard&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MegaMartSalesAgentDashboard_17411350686590&#47;MegaMartSalesDashboard' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Me&#47;MegaMartSalesAgentDashboard_17411350686590&#47;MegaMartSalesDashboard&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1741322021823');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height='2627px';
+                }                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+    </div>
+
+    <!-- Dashboard 3 - Park City Peaks Hotel Analytics -->
+    <div class="dashboard-container">
+        <h2 class="dashboard-title">Park City Peaks Hotel Analytics</h2>
+        <div class="dashboard-description">
+            <p>This dashboard was created for Park City Peaks Hotel to transform their raw booking data into actionable insights. The hotel manager previously relied on basic Excel spreadsheets downloaded from their booking system but needed more comprehensive analytics to understand:</p>
+            <ul>
+                <li>Monthly booking and cancellation patterns</li>
+                <li>Repeat guest statistics</li>
+                <li>Food option preferences among guests</li>
+                <li>Guest composition analysis (individual travelers vs. family bookings)</li>
+            </ul>
+            <p>The interactive visualizations enable management to identify seasonal trends, optimize marketing strategies for different guest segments, and make data-driven decisions to improve occupancy rates and guest satisfaction.</p>
+        </div>
+        <div class="tableau-embed">
+            <div class='tableauPlaceholder' id='viz1741322034504' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;ParkCItyPeaksHotelAnalytics&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ParkCItyPeaksHotelAnalytics&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pa&#47;ParkCItyPeaksHotelAnalytics&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1741322034504');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height='1477px';
+                }                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+    </div>
+
+    <!-- Dashboard 4 - Google Investor Dashboard -->
+    <div class="dashboard-container">
+        <h2 class="dashboard-title">Google Investor Dashboard</h2>
+        <div class="dashboard-description">
+            <p>This dashboard was designed as a stock monitoring tool for investors, similar to the Facebook stock tracking project in the original brief. It provides real-time and historical stock performance data with key metrics including:</p>
+            <ul>
+                <li>Most recent opening and closing prices</li>
+                <li>Percentage change between open and close prices</li>
+                <li>Daily closing price trends</li>
+                <li>Historical performance visualization</li>
+            </ul>
+            <p>The dashboard automatically updates with the latest market data, allowing investors to track Google's stock performance and make informed investment decisions based on current and historical trends.</p>
+        </div>
+        <div class="tableau-embed">
+            <div class='tableauPlaceholder' id='viz1741322046733' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleInvestorDashboard_17412609467680&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='GoogleInvestorDashboard_17412609467680&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Go&#47;GoogleInvestorDashboard_17412609467680&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1741322046733');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else if ( divElement.offsetWidth > 500 ) { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                } else { 
+                    vizElement.style.width='100%';
+                    vizElement.style.height='1227px';
+                }                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Filip Xia. All rights reserved.</p>
+        <div class="contact">
+            <p>Contact me: <a href="mailto:philstian@gmail.com">philstian@gmail.com</a> | <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a> | <a href="https://github.com/your-github" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</body>
+</html>
